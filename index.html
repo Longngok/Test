@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <nav class="menu">
+            <ul>
+                <li><a href=""><b>Works</b></a></li>
+                <li><a href=""><b>Blog</b></a></li>
+                <li><a href=""><b>Contact</b></a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="content-para">
+                <h1><b>Hi, I am John, Creative Technologist</b></h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button>Download Resume</button>
+            </div>
+
+            <div class="content-img">
+                <img src="./image/ai-image-enlarger-1-after-2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="recent">
+            <div class="recent-header">
+                <p>Recent post</p>
+                <a href="">view all</a>
+            </div>
+
+            <div class="recent-child">
+                <div class="recent-child_tabel">
+                    <h1>Making a design system from scratch</h1>
+                    <p>12 Feb 2020 <span>&vert;</span> Design, Pattern</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+
+                <div class="recent-child_tabel">
+                    <h1>Creating pixel perfect icons in Figma</h1>
+                    <p>12 Feb 2020 <span>&vert;</span> Design, Pattern</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="vector"></div>
+
+    <div class="template">
+        <p>Personal Portfolio</p>
+        <p>Template</p>
+    </div>
+
+    <div class="main-mobile">
+        <div class="main-mobile_navbar">
+            <div>
+                <a href="#" class="toggle-icon"><i class="fas fa-bars"></i></a>
+            </div>
+
+            <div  class="main-mobile_navbar_child">
+                <ul>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-mobile_img">
+            <img src="./image/ai-image-enlarger-1-after-2.jpg" alt="">
+        </div>
+
+        <div class="content-2">
+            <h1>Hi, I am John, Creative Technologist</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+    </div>
+
+    <div class="vector2"></div>
+</body>
+
+<script>
+    $(document).ready(function() {
+        $(".toggle-icon").click(function() {
+        $(".main-mobile_navbar_child").toggleClass("active");
+        });
+    });
+</script>
+</html>
