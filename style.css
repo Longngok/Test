@@ -9,7 +9,7 @@ body
 {
     position: absolute;
     width: 855px;
-    height: 100vh;
+    height: 101.5vh;
     left: 71px;
     top: 55px;
     background-color: white;
@@ -19,7 +19,7 @@ body
 {
     position: absolute;
     width: 24px;
-    height: 100vh;
+    height: 101.5vh;
     left: 926px;
     top: 55px;
     clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 100%);
@@ -174,7 +174,7 @@ body
 {
     position: absolute;
     width: 375px;
-    height: 70vh;
+    height: 68.5vh;
     left: 992px;
     top: 372px;
     background-color: white;
@@ -284,7 +284,7 @@ body
 {
     position: absolute;
     width: 23.5px;
-    height: 70vh;
+    height: 68.5vh;
     left: 1367px;
     top: 372px;
     background: #60CAD9;
