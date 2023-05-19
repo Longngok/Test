@@ -179,6 +179,7 @@ body
     top: 372px;
     background-color: white;
 }
+
 .main-mobile_navbar ul li
 {
     list-style-type: none;
@@ -195,10 +196,11 @@ body
 }
 
 .main-mobile_navbar i{
-    display: flex;
-    justify-content: end;
+    position: absolute;
+    z-index: 1;
     font-size: 30px;
     padding: 10px;
+    left: 85%;
 }
 
 .main-mobile_navbar_child
@@ -243,6 +245,7 @@ body
     left: 100.52px;
     top: 83px;
     clip-path: circle(50% at 50% 50%);
+    z-index: 0;
 }
 
 .content-2 h1
